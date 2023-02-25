@@ -20,6 +20,8 @@ int main()
     myVector.erase(myVector.begin() +1);
     myVector.insert(myVector.begin()+2, 8);
     PrintVector();
-    myVector.erase(myVector.begin());
-    PrintVector();
+    // myVector.erase(myVector.);
+    // PrintVector();
+    std::cout<<myVector.size();
+    
 }
