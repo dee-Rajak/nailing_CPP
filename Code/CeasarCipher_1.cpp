@@ -37,7 +37,7 @@ int main()
     string text;
     int ceasar_factor;
 
-    cout<<"Enter text to encipher : ";
+    cout<<"Enter text to encipher : " ;
     cin>>text;
     cout<<"Enter Ceasar Factor value : ";
     cin>>ceasar_factor;

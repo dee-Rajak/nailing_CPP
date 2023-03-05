@@ -8,7 +8,7 @@ string encipher(string text, int x)
     for(int i = 0; i<text.length(); i++)
     {
         if (int(text[i] >= 48 && text[i] <= 57))
-            output += char(int(text[i] + x - 65) % 26 + 65);
+            output += char(int(text[i] + x - 48) % 10 + 48);
         else
             return "Invalid Input String.";
     }
